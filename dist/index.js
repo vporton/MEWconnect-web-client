@@ -5431,13 +5431,39 @@ var ROP = {
   currencyName: 'ROP'
 };
 
+var MATIC = {
+  name: 'MATIC',
+  name_long: 'Matic',
+  homePage: 'https://matic.network',
+  blockExplorerTX: 'https://explorer-mainnet.maticvigil.com/tx/[[txHash]]',
+  blockExplorerAddr: 'https://explorer-mainnet.maticvigil.com/address/[[address]]',
+  chainID: 137,
+  tokens: [],
+  contracts: [],
+  currencyName: 'MATIC'
+};
+
+var MUMBAI = {
+  name: 'MUMBAI',
+  name_long: 'Mumbai',
+  homePage: 'https://matic.network',
+  blockExplorerTX: 'https://mumbai-explorer.matic.today/tx/[[txHash]]',
+  blockExplorerAddr: 'https://mumbai-explorer.matic.today/address/[[address]]',
+  chainID: 80001,
+  tokens: [],
+  contracts: [],
+  currencyName: 'MATIC'
+};
+
 
 
 var types = /*#__PURE__*/Object.freeze({
   ETH: ETH,
   GOERLI: GOERLI,
   KOV: KOV,
-  ROP: ROP
+  ROP: ROP,
+  MATIC: MATIC,
+  MUMBAI: MUMBAI
 });
 
 var ethMewWs = {
